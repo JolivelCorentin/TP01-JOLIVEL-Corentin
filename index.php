@@ -13,7 +13,7 @@
 </header>
 
 <div class="container" style="text-align: center; margin: auto; margin-left: auto;margin-right: auto;  display: flex; justify-content: center;">
-<div class="col-md-6 col-lg-6">
+<div class="col-md-6 col-lg-6" style="margin-top: 4%">
         <h4 class="mb-3">Formulaire</h4>
         <form class="needs-validation" novalidate>
           <div class="row g-3">
@@ -47,7 +47,6 @@
               <input type="text" class="form-control" id="Tel" placeholder="" value="" required>
 
             </div>
-
 
                         <div class="col-sm-6">
               <label for="Email" class="form-label">Email</label>
@@ -110,7 +109,7 @@ function VerifyPasswords()
 
     if(password != confirmation) 
     {   
-        alert("Attention, les mot de passe entrés sont différents !"); 
+        alert("Attention, les mots de passe entrés sont différents !"); 
     }
 }
 
