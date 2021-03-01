@@ -10,18 +10,18 @@
 
 	<script>
 
-function VerifyPasswords() 
-{
-    var password = document.getElementById("password").value;
-    var confirmation = document.getElementById("confirmation").value;
+	function VerifyPasswords() 
+	{
+	    var password = document.getElementById("password").value;
+	    var confirmation = document.getElementById("confirmation").value;
 
-    if(password != confirmation) 
-    {   
-        alert("Attention, les mots de passe entrés sont différents !"); 
-    }
-}
+	    if(password != confirmation) 
+	    {   
+	        alert("Attention, les mots de passe entrés sont différents !"); 
+	    }
+	}
 
-</script>
+	</script>
 
 <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm">
   <p class="h5 my-0 me-md-auto fw-normal">TP 1 - Jolivel Corentin</p>
@@ -79,7 +79,7 @@ function VerifyPasswords()
  
             </div>
 
-                                    <div class="col-sm-6">
+            <div class="col-sm-6">
               <label  class="form-label">Login</label>
               <input type="text" class="form-control" id="Login" placeholder="" value="" required>
               <div class="invalid-feedback">
@@ -106,7 +106,7 @@ function VerifyPasswords()
         </div>
         <div style="margin-top: 4%">
           <input class="btn-lg btn-primary" type="submit">
-</div>	
+		</div>	
          </form>
      </div>
  </div>
