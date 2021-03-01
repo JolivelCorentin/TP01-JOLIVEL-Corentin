@@ -17,7 +17,8 @@
 
 	    if(password != confirmation) 
 	    {   
-	        alert("Attention, les mots de passe entrés sont différents !"); 
+	        alert("Attention, les mots de passe entrés sont différents !");
+	        return false; 
 	    }
 	}
 
