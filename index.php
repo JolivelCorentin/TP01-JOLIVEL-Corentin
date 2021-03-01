@@ -19,15 +19,15 @@
           <div class="row g-3">
             <div class="col-sm-6">
               <label for="firstName" class="form-label">Nom</label>
-              <input type="nom" class="form-control" id="nom" placeholder="" value="" required>	
+              <input type="text" class="form-control" id="nom"  value="" >	
             </div>
 
             <div class="col-sm-6">
               <label for="lastName" class="form-label">Prénom</label>
-              <input type="prenom" class="form-control" id="prenom" placeholder="" value="" required>
+              <input type="text" class="form-control" id="prenom" value="">
             </div>
 
-                        <div class="col-sm-6">
+              <div class="col-sm-6">
               <label for="Adresse" class="form-label">Adresse</label>
               <input type="text" class="form-control" id="Adresse" placeholder="" value="" required>
             </div>
@@ -97,8 +97,6 @@
  </div>
 
 </body>
-</html>
-
 
 <script>
 
@@ -114,3 +112,6 @@ function VerifyPasswords()
 }
 
 </script>
+
+
+</html>
