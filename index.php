@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
 	<title>TP1</title>
 	<meta charset="UTF-8">
@@ -18,44 +18,44 @@
         <form class="needs-validation" method="post" onsubmit="VerifyPasswords()">
           <div class="row g-3">
             <div class="col-sm-6">
-              <label for="firstName" class="form-label">Nom</label>
+              <label class="form-label">Nom</label>
               <input type="text" class="form-control" id="nom"  value="" >	
             </div>
 
             <div class="col-sm-6">
-              <label for="lastName" class="form-label">Prénom</label>
+              <label  class="form-label">Prénom</label>
               <input type="text" class="form-control" id="prenom" value="">
             </div>
 
               <div class="col-sm-6">
-              <label for="Adresse" class="form-label">Adresse</label>
+              <label  class="form-label">Adresse</label>
               <input type="text" class="form-control" id="Adresse" placeholder="" value="" required>
             </div>
 
                         <div class="col-sm-6">
-              <label for="CP" class="form-label">CP</label>
+              <label class="form-label">CP</label>
               <input type="text" class="form-control" id="CP" placeholder="" value="" required>
 
             </div>
                         <div class="col-12">
-              <label for="Ville" class="form-label">Ville</label>
+              <label class="form-label">Ville</label>
               <input type="text" class="form-control" id="Ville" placeholder="" value="" required>
             </div>
 
                         <div class="col-sm-6">
-              <label for="Tel" class="form-label">Tel</label>
+              <label  class="form-label">Tel</label>
               <input type="text" class="form-control" id="Tel" placeholder="" value="" required>
 
             </div>
 
                         <div class="col-sm-6">
-              <label for="Email" class="form-label">Email</label>
+              <label  class="form-label">Email</label>
               <input type="text" class="form-control" id="Email" placeholder="" value="" required>
 
             </div>
 
             <div class="col-sm-6">
-              <label for="civ" class="form-label">Civilité</label>
+              <label  class="form-label">Civilité</label>
               <select class="form-select" id="civ" required>
                 <option value="">Choose...</option>
                 <option>Homme</option>
@@ -65,7 +65,7 @@
             </div>
 
                                     <div class="col-sm-6">
-              <label for="lastName" class="form-label">Login</label>
+              <label  class="form-label">Login</label>
               <input type="text" class="form-control" id="Login" placeholder="" value="" required>
               <div class="invalid-feedback">
                 Valid last name is required.
@@ -73,7 +73,7 @@
             </div>
 
                                     <div class="col-sm-6">
-              <label for="lastName" class="form-label">Mot de passe</label>
+              <label  class="form-label">Mot de passe</label>
               <input type="password" class="form-control" id="password" name="password" placeholder="" value=""  minlength="5" required>
               <div class="invalid-feedback">
                 Valid last name is required.
@@ -81,7 +81,7 @@
             </div>
 
                                     <div class="col-sm-6">
-              <label for="lastName" class="form-label">Confimer le mot de passe</label>
+              <label  class="form-label">Confimer le mot de passe</label>
               <input type="password" class="form-control" id="confirmation" name="confirmation" placeholder="" value="" minlength="5" required>
               <div class="invalid-feedback">
                 Valid last name is required.
