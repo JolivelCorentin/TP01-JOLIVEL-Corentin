@@ -8,6 +8,21 @@
 
 <body>
 
+	<script>
+
+function VerifyPasswords() 
+{
+    var password = document.getElementById("password").value;
+    var confirmation = document.getElementById("confirmation").value;
+
+    if(password != confirmation) 
+    {   
+        alert("Attention, les mots de passe entrés sont différents !"); 
+    }
+}
+
+</script>
+
 <header class="d-flex flex-column flex-md-row align-items-center p-3 px-md-4 mb-3 bg-body border-bottom shadow-sm">
   <p class="h5 my-0 me-md-auto fw-normal">TP 1 - Jolivel Corentin</p>
 </header>
@@ -97,21 +112,5 @@
  </div>
 
 </body>
-
-<script>
-
-function VerifyPasswords() 
-{
-    var password = document.getElementById("password").value;
-    var confirmation = document.getElementById("confirmation").value;
-
-    if(password != confirmation) 
-    {   
-        alert("Attention, les mots de passe entrés sont différents !"); 
-    }
-}
-
-</script>
-
 
 </html>
