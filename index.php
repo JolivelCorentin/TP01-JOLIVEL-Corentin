@@ -50,7 +50,7 @@
 
                         <div class="col-sm-6">
               <label class="form-label">CP</label>
-              <input type="text" class="form-control" id="CP" placeholder="" value="" required>
+              <input type="number" minlength="5" class="form-control" id="CP" placeholder="" value="" required>
 
             </div>
                         <div class="col-12">
